@@ -15,7 +15,6 @@ Git과 GitHub의 역할 차이(로컬 버전관리 vs 원격 협업 플랫폼)�
 - macOS Sonoma 14.x (또는 Windows 11 / Ubuntu 22.04 등)
 
 ### 🐳 Docker
-\`\`\`bash
 $ docker --version
 Docker version 29.9.2, build a82e528
 
@@ -129,7 +128,6 @@ Server:
 
 
 ### 🌿 Git
-\`\`\`bash
 $ git --version
 git version 2.56.0.windows.4
 
@@ -137,7 +135,7 @@ $ git config --global user.name
 si***
 
 $ git config --global user.email
-si***@gmail.com)
+si***@gmail.com
 
 ## 3. 수행 항목 체크리스트
 ### 🐳 Docker 환경
@@ -240,20 +238,3 @@ $ git branch -M main
 3. VSCode 좌측 하단에 GitHub 계정명 표시 확인
 
 ![VSCode GitHub 로그인](images/vscode-github-login.png)
-
-### 6-5. 원격 저장소 연결 & 첫 푸시
-
-**원격 저장소 연결:**
-\```bash
-$ git remote add origin https://github.com/본인아이디/저장소명.git
-
-$ git remote -v
-origin  https://github.com/본인아이디/저장소명.git (fetch)
-origin  https://github.com/본인아이디/저장소명.git (push)
-\```
-
-**첫 푸시:**
-\```bash
-$ git push -u origin main
-(여기에 실제 결과 복붙)
-\```
