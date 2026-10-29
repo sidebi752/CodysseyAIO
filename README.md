@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # First Project
 
 ## 1. 프로젝트 개요
@@ -244,23 +243,17 @@ $ git branch -M main
 
 ### 6-5. 원격 저장소 연결 & 첫 푸시
 
+**원격 저장소 연결:**
 \```bash
-$ git remote add origin https://github.com/si***/CodysseyAIO.git
+$ git remote add origin https://github.com/본인아이디/저장소명.git
 
 $ git remote -v
-origin  https://github.com/si***/CodysseyAIO.git (fetch)
-origin  https://github.com/si***/CodysseyAIO.git (push)
-
-$ git add .
-$ git commit -m "Initial commit: README 작성 시작"
-$ git push -u origin main
+origin  https://github.com/본인아이디/저장소명.git (fetch)
+origin  https://github.com/본인아이디/저장소명.git (push)
 \```
 
-### 6-6. GitHub에 반영 확인
-
-![GitHub 푸시 완료](images/github-pushed.png)
-> 📸 GitHub 저장소에 README가 올라온 화면
-=======
-# CodysseyAIO
-codyssey rookie_mariner
->>>>>>> 2114af0be5a3b6a24c35ac46a863e6d3590533a3
+**첫 푸시:**
+\```bash
+$ git push -u origin main
+(여기에 실제 결과 복붙)
+\```
