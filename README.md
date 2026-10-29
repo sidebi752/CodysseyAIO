@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # First Project
 
 ## 1. 프로젝트 개요
@@ -259,3 +260,7 @@ $ git push -u origin main
 
 ![GitHub 푸시 완료](images/github-pushed.png)
 > 📸 GitHub 저장소에 README가 올라온 화면
+=======
+# CodysseyAIO
+codyssey rookie_mariner
+>>>>>>> 2114af0be5a3b6a24c35ac46a863e6d3590533a3
